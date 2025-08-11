@@ -1,3 +1,34 @@
+# 請求
+
+## 啟動服務 FastAPI
+
+```bash
+python server.py --port 9999 --reload
+```
+
+## 使用 API
+
+### /synthesize
+
+- 支援自訂參考音檔和文字
+- 自動音檔格式轉換
+- 非同步處理，支援多併發
+- 自動清理臨時檔案
+
+```bash
+{
+    "gen_text": "要合成的文字",
+    "ref_audio_path": "參考音檔路徑", 
+    "ref_text": "參考音檔對應的文字",
+    "model": "F5TTS_v1_Base",
+    "vocoder_name": "vocos",
+    "speed": 1.0,
+    "remove_silence": true,
+    "output_format": "wav"
+}
+```
+
+
 # F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching
 
 [![python](https://img.shields.io/badge/Python-3.10-brightgreen)](https://github.com/SWivid/F5-TTS)
