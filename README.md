@@ -1,14 +1,14 @@
-# 請求
+## 請求
 
-## 啟動服務 FastAPI
+### 啟動服務 FastAPI
 
 ```bash
 python server.py --port 9999 --reload
 ```
 
-## 使用 API
+### 使用 API
 
-### /synthesize
+/synthesize
 
 - 支援自訂參考音檔和文字
 - 自動音檔格式轉換
