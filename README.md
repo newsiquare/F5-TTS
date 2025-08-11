@@ -8,7 +8,7 @@ python server.py --port 9999 --reload
 
 ### 使用 API
 
-/synthesize
+POST /synthesize
 
 - 支援自訂參考音檔和文字
 - 自動音檔格式轉換
