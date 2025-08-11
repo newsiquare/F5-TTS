@@ -3,7 +3,7 @@
 ### 啟動服務 FastAPI
 
 ```bash
-python server.py --port 9999 --workers 1 --reload
+python server.py --port 8888 --workers 1 --reload
 ```
 
 ### 使用 API
